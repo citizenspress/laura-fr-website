@@ -1,0 +1,201 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://drlaurabenhaim.com/fr/"
+languageCode = "fr-CA"
+title = "Dre. Laura Benhaïm - chiropraticienne"
+
+# Metadata
+[params]
+  author = "Dre. Laura Benhaïm - chiropraticienne"
+  description = "Chiropraticienne à la Clinique chiropratique de Westmount et à la Clinique chiropratique Vieux-Montréal"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "DRE. LAURA BENHAÏM"
+  description = "Des soins chiropratiques pour une santé optimale"
+
+# Navigation section
+[params.nav]
+  contact = "Prendre rendez-vous"
+mission = "Qu’est-ce que la chiropratique?"
+  services = "Première visite"
+  team = "Au sujet de Laura"
+
+
+
+# Include logo instead if HOME:
+   logo = "images/logo.png"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/laura.jpg"
+
+
+  [[params.mission.item]]
+    weight = 1
+    name = "chiro"
+    title = "Soins chiropratiques"
+    subtitle = ""
+    description = "<p><b><a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\">Cliquez maintenant pour prendre rendez-vous.</a></b></p><p>La chiropratique est une science de la santé qui mise sur la capacité inhérente du corps humain à se maintenir en santé. Le rétablissement du bon fonctionnement de votre système nerveux peut non seulement soulager vos douleurs, mais peut aussi prévenir l'apparition de d’autres douleurs et symptômes. Autrement dit, la chiropratique stimule la capacité innée du corps à \"s'auto-guérir\" (ex: une coupure qui se referme naturellement), sans recourir aux médicaments ou à la chirurgie . Évidemment, il faut être capable de reconnaître quand ces interventions médicales sont nécessaires et le docteur en chiropratique est en mesure de vous diriger vers d'autres professionnels de la santé pour s'assurer que vous receviez tous les soins nécessaires pour atteindre vos objectifs de santé.</p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Homéostasie"
+    subtitle = "La chiropratique se concentre sur les problèmes neuro-musculo-squelettique, ce qui veut dire qu'elle traite plusieurs fonctions à la fois."
+    description = "<p><b><a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\">Cliquez maintenant pour prendre rendez-vous.</a></b></p><p> Mais elle se base sur l'énoncé scientifique suivant: le système nerveux contrôle tous les systèmes de votre corps, donc toutes vos cellules, vos tissus, vos organes. Si son homéostasie - équilibre naturel - est perturbée et que le système nerveux ne fonctionne pas pleinement, des problèmes de santé se développeront.</p><p>La chiropratique est une approche à la fois curative et préventive : elle vise à soulager les douleurs, mais aussi à assurer le maintien de l'équilibre normal du corps pour lui permettre de rester en santé et prévenir plusieurs problèmes de santé.</p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Dre Laura Benhaïm"
+    subtitle = "Tout a vraiment commencé quand j'ai rencontré Dr Martin Lamarre, chiropraticien, qui à l'époque avait une clinique à Ville-Saint-Laurent, là où j'ai grandi. C'est comme assistante dans sa clinique que j'ai appris que la chiropratique était un mariage entre la science, la philosophie et l'art de travailler avec ses mains."
+    description = "<p><b><a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\">Cliquez maintenant pour prendre rendez-vous.</a></b></p><p>Le chiropraticien peut faire une différence dans la qualité de vie des gens en améliorant leur santé, en apaisant leurs souffrances, en les écoutant, et en apprenant à les connaître. Convaincue, je me suis inscrite au doctorat en chiropratique à l’Université du Québec à Trois-Rivières.</p> <p>Je pratique depuis septembre 2014 et offre présentement des soins dans deux cliniques de Montréal, soit la Clinique chiropratique Westmount et la Clinique chiropratique Vieux-Port.</p> <p>Je suis aussi membre du conseil d’administration de Chiropratique Sans Frontières, un organisme à but non lucratif qui offre des soins chiropratiques gratuits dans des milieux défavorisés, notamment en Bolivie, où je suis allée en mission à deux reprises. Finalement, je suis représentante régionale pour la cellule de Montréal de l’Association des chiropraticiens du Québec.</p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "images/test.ogv"
+  title = "Nos services"
+  description = "Les ajustements chiropratiques permettent non seulement de réduire ou d'éliminer les douleurs, mais aussi de prévenir les blessures et maintenir le bon fonctionnement de votre corps. Cela dit, plusieurs problèmes de santé peuvent être soulagés par l'entremise de traitements chiropratiques:"
+
+  [[params.services.item]]
+    icon = "icon-head"
+    title = "Douleurs au cou et au dos"
+    description = ""
+    url = ""
+
+  [[params.services.item]]
+    icon = "icon-bolt"
+    title = "Mal de tête et vertige"
+    description = ""
+
+  [[params.services.item]]
+    icon = "icon-futbol-o"
+    title = "Blessures sportives"
+    description = ""
+
+  [[params.services.item]]
+    icon = "icon-female"
+    title = "Fertilité et grossesse"
+    description = ""
+
+  [[params.services.item]]
+    icon = "icon-child"
+    title = "Soins pédiatriques"
+    description = ""
+
+  [[params.services.item]]
+    icon = "icon-group"
+    title = "Forfaits corporatifs"
+    description = ""
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/img2.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/img3.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/img4.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/img5.jpg"
+
+
+# Team section
+[params.team]
+  enable = true
+  title = "Au sujet de Laura"
+  description = "Je pratique depuis septembre 2014 et offre présentement des soins dans deux cliniques de Montréal, soit la Clinique chiropratique Westmount et la Clinique chiropratique Vieux-Port. <br><br>Je suis aussi membre du conseil d’administration de Chiropratique Sans Frontières, un organisme à but non lucratif qui offre des soins chiropratiques gratuits dans des milieux défavorisés, notamment en Bolivie, où je suis allée en mission à deux reprises. Finalement, je suis représentante régionale pour la cellule de Montréal de l’Association des chiropraticiens du Québec."
+
+  [[params.team.item]]
+    name = "Dre Laura Benhaïm"
+    position = "Chiropraticienne"
+    description = "Dès un très jeune âge, je savais que je voulais travailler dans le domaine de la santé. Mon désir de vouloir contribuer au bien-être des gens tout en développant des liens avec mes patients m’a mené vers la chiropratique."
+    img = "images/img10.jpg"
+    facebook = "https://www.facebook.com/chirowestmount/"
+    linkedin = "https://ca.linkedin.com/in/laura-benhaim-5271aaa3"
+instagram = "https://www.instagram.com/chiro_westmount/"
+web = "http://cpress.org"
+
+
+
+  [[params.team.item]]
+    name = "Clinique Chiropratique Westmount"
+    position = "245 Victoria Ave #525, Westmount, QC H3Z 2M5, Canada"
+    description = "<a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\"><b>Prenez rendez-vous</b></a><br>lundi:          15h à 20h <br>mercredi:   9h à 20h <br>vendredi (aux deux semaines): 10h à 14h"
+    img = "images/map.png"
+    facebook = "https://www.facebook.com/chirowestmount/"
+    instagram = "https://www.instagram.com/chiro_westmount/"
+    linkedin = "https://ca.linkedin.com/in/laura-benhaim-5271aaa3"
+
+[[params.team.item]]
+    name = "Chiropratique Vieux-Montreal"
+    position = "500 place-d'armes, suite 1800, Westmount, QC H3Z 2M5, Canada"
+    description = "<a href=\"https://clinique-du-dr-laura-benhaim.cliniko.com/bookings\"><b>Prendre rendez-vous</b></a><br>lundi: 9h à 14h<br>mardi: 15h à 20h<br>jeudi: 14h à 20h<br>vendredi (aux deux semaines): 10h à 14h"
+    img = "images/old-montreal.png"
+    facebook = "https://www.facebook.com/chirowestmount/"
+    instagram = "https://www.instagram.com/chiro_westmount/"
+    linkedin = "https://ca.linkedin.com/in/laura-benhaim-5271aaa3"
+
+
+  # [[params.team.item]]
+  #   name = "John Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Prendre rendez-vous dans une de mes cliniques"
+  message = "Vous hésitez?<br>Appelez nous: <a href=\"tel:514-303-2800\">514-303-2800</a><br>Vous pouvez aussi envoyer vos questions par courriel:<br> <a href=\"mailto:chirowestmout@gmail.com\">chirowestmount@gmail.com</a><br><hr><b>Chiropratique Vieux-Montreal</b><br>500 place-d'armes, suite 1800<br>Montreal, QC  H2Y 2W2 <br><b>Hours</b><br>lundi: 15h à 20h<br>mardi: 15h à 20h <br>jeudi: 14h à 20h <br>vendredi (aux deux semaines): 10h à 14h<br><hr><b>Clinique Chiropratique Westmount</b> <br>245 Victoria Ave #525, Westmount, QC<br><b>Heures</b></a><br>lundi:  15h à 20h <br>mercredi:   9h à 20h <br>vendredi (aux deux semaines): 10h à 14h"
+
+
+
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p> <a href=\"tel:514-303-2800\">514-303-2800</a><br> <a href=\"mailto:chirowestmout@gmail.com\">chirowestmount@gmail.com</a><br><small>&copy; 2017</small></p>"
+    facebook = "https://www.facebook.com/chirowestmount/"
+    instagram = "https://www.instagram.com/chiro_westmount/"
+    linkedin = "https://ca.linkedin.com/in/laura-benhaim-5271aaa3"
