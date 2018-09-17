@@ -185,8 +185,8 @@ web = "http://cpress.org"
 # Contact section
 [params.contact]
   enable = true
-  title = "Prendre rendez-vous dans une de mes cliniques"
-  message = "Vous hésitez?<br>Appelez nous: <a href=\"tel:514-303-2800\">514-303-2800</a><br>Vous pouvez aussi envoyer vos questions par courriel:<br> <a href=\"mailto:chirowestmout@gmail.com\">chirowestmount@gmail.com</a><br><hr><b>Chiropratique Vieux-Montreal</b><br>500 place-d'armes, suite 1800<br>Montreal, QC  H2Y 2W2 <br><b>Hours</b><br>lundi: 15h à 20h<br>mardi: 15h à 20h <br>jeudi: 14h à 20h <br>vendredi (aux deux semaines): 10h à 14h<br><hr><b>Clinique Chiropratique Westmount</b> <br>245 Victoria Ave #525, Westmount, QC<br><b>Heures</b></a><br>lundi:  15h à 20h <br>mercredi:   9h à 20h <br>vendredi (aux deux semaines): 10h à 14h"
+  title = "Prenez rendez-vous dans une de mes cliniques"
+  message = "Vous hésitez?<br>Appelez nous: <a href=\"tel:514-303-2800\">514-303-2800</a><br>Vous pouvez aussi envoyer vos questions par courriel:<br> <a href=\"mailto:chirowestmount@gmail.com\">chirowestmount@gmail.com</a><br><hr><b>Chiropratique Vieux-Montreal</b><br>500 place-d'armes, suite 1800<br>Montreal, QC  H2Y 2W2 <br><b>Hours</b><br>lundi: 15h à 20h<br>mardi: 15h à 20h <br>jeudi: 14h à 20h <br>vendredi (aux deux semaines): 10h à 14h<br><hr><b>Clinique Chiropratique Westmount</b> <br>245 Victoria Ave #525, Westmount, QC<br><b>Heures</b></a><br>lundi:  15h à 20h <br>mercredi:   9h à 20h <br>vendredi (aux deux semaines): 10h à 14h"
 
 
 
